@@ -11,6 +11,22 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  height: 100vh;
+  background: linear-gradient(
+      90deg,
+      rgba(81, 170, 90, 0.9) 0%,
+      rgba(50, 101, 67, 0.9) 100%
+    ),
+    url(bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
 img {
   height: 80px;
+}
+h1,
+h3 {
+  color: #fff;
 }
